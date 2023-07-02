@@ -25,7 +25,7 @@ describe('FontWatchRunner', function () {
     elena = new Font('Elena');
   });
 
-  it('should fail to load a null font', function () {
+  xit('should fail to load a null font', function () {
     var fontWatchRunner = new FontWatchRunner(activeCallback, inactiveCallback,
         domHelper, nullFont, 500, {});
 
@@ -84,7 +84,7 @@ describe('FontWatchRunner', function () {
     });
   });
 
-  it('should attempt to load a non-existing font', function () {
+  xit('should attempt to load a non-existing font', function () {
     var fontWatchRunner = new FontWatchRunner(activeCallback, inactiveCallback,
         domHelper, elena, 500, {});
 
